@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Navakala Tailors</title>
+    <meta name="description" content="Browse our gallery of premium blouses, nighties, and night dresses at Navakala Tailors in Malleshwaram, Bangalore.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Navakala Tailors <span class="kannada-name">ನವಕಲ ಟೈಲರ್ಸ್</span></h1>
+            </div>
+            <button class="mobile-toggle" id="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="banner-content">
+            <h2>Our Gallery</h2>
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a> / <span>Gallery</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery-page">
+        <div class="container">
+            <div class="gallery-intro">
+                <h2 class="section-title">Explore Our Creations</h2>
+                <p>Browse through our collection of premium blouses, nighties, and night dresses. Each piece is crafted with attention to detail and quality materials to ensure comfort and elegance.</p>
+            </div>
+
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="blouses">Blouses</button>
+                <button class="filter-btn" data-filter="nighties">Nighties</button>
+                <button class="filter-btn" data-filter="night-dresses">Night Dresses</button>
+                <button class="filter-btn" data-filter="night-suits">Night Suits</button>
+            </div>
+
+            <div class="gallery-grid" id="gallery-container">
+                <!-- Blouses -->
+                <div class="gallery-item blouses">
+                    <div class="gallery-image">
+                        <img src="images/blouse.svg" alt="Designer Blouse">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Designer Blouse</h3>
+                                <p>Custom-designed blouse with intricate embroidery</p>
+                                <a href="images/blouse.svg" class="gallery-zoom">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Nighties -->
+                <div class="gallery-item nighties">
+                    <div class="gallery-image">
+                        <img src="images/product1.svg" alt="Cotton Nightie">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Cotton Nightie</h3>
+                                <p>Comfortable cotton nightie for everyday wear</p>
+                                <a href="images/product1.svg" class="gallery-zoom">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Night Dresses -->
+                <div class="gallery-item night-dresses">
+                    <div class="gallery-image">
+                        <img src="images/product2.svg" alt="Elegant Night Dress">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Elegant Night Dress</h3>
+                                <p>Stylish and comfortable night dress</p>
+                                <a href="images/product2.svg" class="gallery-zoom">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Night Suits -->
+                <div class="gallery-item night-suits">
+                    <div class="gallery-image">
+                        <img src="images/product3.svg" alt="Night Suit Set">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Night Suit Set</h3>
+                                <p>Coordinated night suit set for complete comfort</p>
+                                <a href="images/product3.svg" class="gallery-zoom">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More Blouses -->
+                <div class="gallery-item blouses">
+                    <div class="gallery-image">
+                        <img src="images/blouse.svg" alt="Silk Blouse">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Silk Blouse</h3>
+                                <p>Premium silk blouse with traditional design</p>
+                                <a href="images/blouse.svg" class="gallery-zoom">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More Nighties -->
+                <div class="gallery-item nighties">
+                    <div class="gallery-image">
+                        <img src="images/product1.svg" alt="Printed Nightie">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Printed Nightie</h3>
+                                <p>Soft cotton nightie with elegant prints</p>
+                                <a href="images/product1.svg" class="gallery-zoom">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More Night Dresses -->
+                <div class="gallery-item night-dresses">
+                    <div class="gallery-image">
+                        <img src="images/product2.svg" alt="Satin Night Dress">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Satin Night Dress</h3>
+                                <p>Luxurious satin night dress for special occasions</p>
+                                <a href="images/product2.svg" class="gallery-zoom">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More Night Suits -->
+                <div class="gallery-item night-suits">
+                    <div class="gallery-image">
+                        <img src="images/product3.svg" alt="Winter Night Suit">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Winter Night Suit</h3>
+                                <p>Warm and cozy night suit for winter season</p>
+                                <a href="images/product3.svg" class="gallery-zoom">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-cta">
+                <h3>Can't find what you're looking for?</h3>
+                <p>Visit our store to explore our complete collection or contact us for custom orders.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                    <a href="products.html" class="btn btn-outline">View Products</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">Navakala Tailors</div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="products.html">Products</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="copyright">
+                &copy; <span id="year"></span> Navakala Tailors. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Update copyright year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile Navigation Toggle
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const navbar = document.getElementById('navbar');
+        const header = document.getElementById('header');
+
+        mobileToggle.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+
+        // Scroll Event for Header
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Gallery Filtering
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                const filter = btn.getAttribute('data-filter');
+                
+                galleryItems.forEach(item => {
+                    if (filter === 'all' || item.classList.contains(filter)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- Lightbox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script>
+    <script>
+        // Initialize lightbox
+        const galleryContainer = document.getElementById('gallery-container');
+        lightGallery(galleryContainer, {
+            selector: '.gallery-zoom',
+            speed: 500,
+            download: false
+        });
+    </script>
+</body>
+</html>
